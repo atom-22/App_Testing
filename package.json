@@ -1,0 +1,18 @@
+{
+  "name": "2_lesson",
+  "version": "1.0.0",
+  "description": "",
+  "main": "conf.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Atom Ulikhanyan <atomulikhanyan@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "npm": "^5.8.0",
+    "protractor": "^5.3.0"
+  },
+  "devDependencies": {
+    "jasmine": "^3.1.0"
+  }
+}

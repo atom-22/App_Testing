@@ -1,0 +1,31 @@
+
+{
+	"emailPosValue": [
+		"test@questrade.com",
+		"tesfgdg@fd"
+	],
+
+	"emailNegValues": [
+		"sdsdsdsdsd",
+		"!@#$%^&*(",
+		"edgsdfh@.",
+		"sdjfshb15fghfj",
+		"F14446YHfhgh@",
+		"GCrdhjfyt"
+	],
+
+	"passwordPosValues" : [
+		"d15red",
+		"dfgr14t",
+		"dfgd@$#$%31554fcghDSFE"
+	],
+
+	"passwordNegValues" : [
+		" ",
+		"d",
+		"d15re"
+	],
+
+	"emailErrorMessage": "Please enter a valid email.",
+	"passordErrorMessage" : "Your password must be at least 6 characters."
+}
