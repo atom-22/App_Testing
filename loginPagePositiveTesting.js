@@ -26,6 +26,7 @@ describe('Twitter: Email validation ', ()=> {
 			$(poTW.loginField.singUpEmail).clear().sendKeys(posVal[i]);
 			browser.sleep(1000);
 			expect(validEmail.isDisplayed()).toBe(true);
+			//expect( element(By.xpath('//*[@id="phx-signup-form"]/div[1]/div[2]/div/div[1]/p[1]')).isDisplayed()).toBe(true);
 			expect(emailError.isPresent()).toBeFalsy();
 		}	
 	}
@@ -47,9 +48,7 @@ describe('Twitter: Email validation ', ()=> {
 	it('should check negative values ', ()=> {
 		negCheck();
 	});
-
 });
-
 
 
 describe('Twitter: Password validation ', ()=> {
