@@ -1,4 +1,3 @@
-
 'use strict';
 
 const poTW = require('./pageObj.json');
@@ -96,5 +95,3 @@ describe('Twitter: Password validation ', ()=> {
 	});
 
 });
-
-

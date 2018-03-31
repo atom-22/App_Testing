@@ -9,6 +9,7 @@
   "author": "Atom Ulikhanyan <atomulikhanyan@gmail.com>",
   "license": "ISC",
   "dependencies": {
+    "chromedriver": "^2.37.0",
     "npm": "^5.8.0",
     "protractor": "^5.3.0"
   },
