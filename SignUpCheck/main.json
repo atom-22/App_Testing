@@ -16,5 +16,13 @@
 		{"error" : "Your password must be at least 6 characters.", "inputValue": "8"},
 		{"error" : "Your password must be at least 6 characters.", "inputValue": "tests"},
 		{"error" : "Your password must be at least 6 characters.", "inputValue": "!@#$%"}
+	],
+
+	"inputs" : [
+		{"fullName" : "sys", "email" : "tesynopsys.ru", "password" : "dfgdgd"},
+		{"fullName" : "fdg", "email" : "dfgghjkghdg", "password" : "dfghjggdgd"},
+		{"fullName" : "fddfgg", "email" : "dfgghjd@kghdg", "password" : "fg"},
+		{"fullName" : "fdgffg", "email" : "f55jkghdg", "password" : "dgd"}
+
 	]
 }

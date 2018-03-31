@@ -14,42 +14,26 @@ describe('Page validation check ', () => {
 		browser.executeScript('window.sessionStorage.clear();');
 		browser.executeScript('window.localStorage.clear();');
     });
-    
-	it ("should check error message visibility/invisibility", () => {
-        let passwordValidation = (inputValue, error) => {
-        beforeAll(() => {
-            $(poTW.loginField.fullNameInput).clear().sendKeys("inputValue");
-            $(poTW.loginField.singUpEmail).clear().sendKeys("inputValue");
-            $(poTW.loginField.passwordInput).clear().sendKeys("inputValue");
-			browser.sleep(3000);
+
+    let validationCheck = (val1, val2, val3) => {
+		beforeAll(() => {	
+			$(poTW.loginField.fullNameInput).clear().sendKeys(val1);
+			$(poTW.loginField.singUpEmail).clear().sendKeys(val2);
+			$(poTW.loginField.passwordInput).clear().sendKeys(val3);
+			browser.sleep(2000);
+			$(poTW.loginField.submitBtn).isDisplayed().click();
+			
 		});
-	})
-	
-        // let arr = poTW.loginField.fields;
-        // for(let i = 0; i < arr.length; ++i){
-        //     const item = arr[i];
-            //$item.clear().sendKeys("value");
-            //$(poTW.loginField.singUpEmail).clear().sendKeys("inputValue");
-        //}
 
-    //browser.sleep(5000);
-   
-	// 	it ("should check error message visibility/invisibility", () => {
-	// 		if(error) {
-	// 			expect($(poTW.loginField.emailError).getText()).toBe(error);
-	// 			expect($(poTW.loginField.validEmail).isPresent()).toBeFalsy()
-	// 	}	else {
-	// 			expect($(poTW.loginField.validEmail).isDisplayed()).toBe(true);
-	// 			expect($(poTW.loginField.emailError).isPresent()).toBeFalsy();
-	// 		}
-	// 	})
-    // }
-    
+		it ("should check sign on possibility", () => {
+			expect(browser.getCurrentUrl()).toEqual(poTW.loginField.signUpURL);
+		})
+	}
 
-	for(let i = 0; i < test_data.testObj.length; i++) {
-		let item = test_data.testObj[i];
+	for(let i = 0; i < test_data.inputs.length; i++) {
+		let item = test_data.inputs[i];
 		describe('for ', () => {
-			validationCheck(item.inputValue, item.error);
+			validationCheck(item.fullName,item.email,item.password);
 		});
     }
     
