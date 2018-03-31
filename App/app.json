@@ -1,0 +1,19 @@
+{
+	"testObj": [
+		{"inputValue": "test@synopsys.ru"},
+		{"inputValue": "test@mnmn.am"},
+		{"error" : "Please enter a valid email.", "inputValue": "vsdfsfsf"},
+		{"error" : "Please enter a valid email.", "inputValue": "8989Sdsds"},
+		{"error" : "Please enter a valid email.", "inputValue": "testsynopsys.com"},
+		{"error" : "Please enter a valid email.", "inputValue": "testsynopsys@.com"}
+	],
+
+	"passwordObj" : [
+		{"inputValue": "aserso"},
+		{"inputValue": "ser14t8"},
+		{"error" : "Your password must be at least 6 characters.", "inputValue": " "},
+		{"error" : "Your password must be at least 6 characters.", "inputValue": "8"},
+		{"error" : "Your password must be at least 6 characters.", "inputValue": "tests"},
+		{"error" : "Your password must be at least 6 characters.", "inputValue": "!@#$%"}
+	]
+}
