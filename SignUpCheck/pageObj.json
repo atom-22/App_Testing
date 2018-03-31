@@ -1,0 +1,23 @@
+
+{
+	"loginField":  {
+        "fields" : ["#full-name","#email","#password"],
+		"signUpURL": "https://twitter.com/signup",
+		"phoneLoginTxt": "#signin-email",
+		"passwordTxt": "#signin-password",
+		"loginBtn": ".flex-table-secondary",
+		"fullNameTxt": ".text-input",
+		"emailSignUpTxt": ".text-input.email-input",
+		"passwordSignUpTxt": ".text-input",
+		"signUpBtn": ".EdgeButton.EdgeButton--medium.EdgeButton--primary.u-floatRight.submit",
+		"rememberMe": ".t1-label.remember",
+		"singUpEmail": "#email",
+		"validEmail": ".ok.isaok.active",
+		"emailError": ".invalid.error.active",
+		"passwordError" : ".invalid.error.active",
+		"validPassword" : ".ok.isaok.perfect.weak.active",
+		"fullNameInput": "#full-name",
+		"passwordInput": "#password",
+		"submitBtn": "#submit_button"
+	}
+}
