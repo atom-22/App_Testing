@@ -1,28 +1,12 @@
-
 {
 	"testObj": [
-		{"inputValue": "test@synopsys.ru"},
-		{"inputValue": "test@mnmn.am"},
-		{"error" : "Please enter a valid email.", "inputValue": "vsdfsfsf"},
-		{"error" : "Please enter a valid email.", "inputValue": "8989Sdsds"},
-		{"error" : "Please enter a valid email.", "inputValue": "testsynopsys.com"},
-		{"error" : "Please enter a valid email.", "inputValue": "testsynopsys@.com"}
-	],
-
-	"passwordObj" : [
-		{"inputValue": "aserso"},
-		{"inputValue": "ser14t8"},
-		{"error" : "Your password must be at least 6 characters.", "inputValue": " "},
-		{"error" : "Your password must be at least 6 characters.", "inputValue": "8"},
-		{"error" : "Your password must be at least 6 characters.", "inputValue": "tests"},
-		{"error" : "Your password must be at least 6 characters.", "inputValue": "!@#$%"}
-	],
-
-	"inputs" : [
-		{"fullName" : "sys", "email" : "tesynopsys.ru", "password" : "dfgdgd"},
-		{"fullName" : "fdg", "email" : "dfgghjkghdg", "password" : "dfghjggdgd"},
-		{"fullName" : "fddfgg", "email" : "dfgghjd@kghdg", "password" : "fg"},
-		{"fullName" : "fdgffg", "email" : "f55jkghdg", "password" : "dgd"}
-
+		{"name":"  ","email":"gggfgh@mail.ru","password":"dfgd1477","errorElement":"emptyNameFieldError","errorTxt":"nameEmpty","validElement":"validName"},
+		{"name":"Twitter","email":"gggfgh@mail.ru","password":"aghj45s","errorElement":"noTwitterError","errorTxt":"nameTwitter","validElement":"validName"},
+		{"name":"Jon","email":"asdasd","password":"as14de","errorElement":"emailError","errorTxt":"emailValidation","validElement":"validEmail"},
+		{"name":"Jon","email":"1478452","password":"a14res","errorElement":"phoneError","errorTxt":"phoneValidation","validElement":"validEmail"},
+		{"name":" ","email":"asda@mail.ru","password":"a14res","errorElement":"registeredEmailError","errorTxt":"registeredEmail","validElement":"validEmail"},
+		{"name":" ","email":"12714@mail.comf","password":"a14res","errorElement":"didYouMeanError","errorTxt":"didYouMeanValidation","validElement":"validEmail"},
+		{"name":"Jon","email":"asdasd@.com","password":"as","errorElement":"passwordError","errorTxt":"passwordValidation","validElement":"validPassword"}
 	]
 }
+

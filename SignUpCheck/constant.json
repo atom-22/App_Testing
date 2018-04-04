@@ -1,0 +1,11 @@
+{
+	"errorMessages": {
+		"nameEmpty": "What's your name?",
+		"nameTwitter": "Your full name can't include the word \"Twitter\".",
+		"phoneValidation": "Please enter a valid phone number.",
+		"registeredEmail" : "This email is already registered. Want to login or recover your password?",
+		"emailValidation": "Please enter a valid email.",
+		"didYouMeanValidation" : "Did you mean 12714@mail.com?",
+		"passwordValidation": "Your password must be at least 6 characters."
+	}
+}

@@ -1,8 +1,8 @@
-
 {
 	"loginField":  {
-        "fields" : ["#full-name","#email","#password"],
+
 		"signUpURL": "https://twitter.com/signup",
+		"languageTxt":"a.dropdown-toggle.js-dropdown-toggle .js-current-language",
 		"phoneLoginTxt": "#signin-email",
 		"passwordTxt": "#signin-password",
 		"loginBtn": ".flex-table-secondary",
@@ -11,13 +11,24 @@
 		"passwordSignUpTxt": ".text-input",
 		"signUpBtn": ".EdgeButton.EdgeButton--medium.EdgeButton--primary.u-floatRight.submit",
 		"rememberMe": ".t1-label.remember",
+
 		"singUpEmail": "#email",
-		"validEmail": ".ok.isaok.active",
-		"emailError": ".invalid.error.active",
-		"passwordError" : ".invalid.error.active",
-		"validPassword" : ".ok.isaok.perfect.weak.active",
 		"fullNameInput": "#full-name",
 		"passwordInput": "#password",
-		"submitBtn": "#submit_button"
+
+		"validName" : "div.prompt.name .ok.isaok.active",
+		"validEmail": "div.prompt.email .ok.isaok.active",
+		"validPassword":"div.prompt.password .ok.isaok.perfect.weak.active",
+
+		"emptyNameFieldError" : "div.prompt.name .blank.invalid.error.active",
+		"noTwitterError": "div.prompt.name .notwitter.error.active",
+		"emailError": "div.prompt.email .invalid.error.active",
+		"phoneError": "div.prompt.email .invalid_phone.error.active",
+		"registeredEmailError" : "div.prompt.email .taken.error.active",
+		"didYouMeanError" : "div.prompt.email .domain.active",
+		"passwordError" : "div.prompt.password .invalid.error.active", 
+
+		"submitBtn": "#submit_button"	
 	}
 }
+
